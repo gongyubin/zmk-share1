@@ -1,0 +1,19 @@
+#board: [ "nice_nano_v2", "seeeduino_xiao_ble" ]
+#shield: [ "revj41" ]
+include:    
+  - board: seeeduino_xiao_ble
+    shield: chippy_left    
+  - board: seeeduino_xiao_ble   
+    shield: chippy_right
+  - board: seeeduino_xiao_ble
+    shield: chipper_left
+  - board: seeeduino_xiao_ble
+    shield: chipper_right
+  # - shield: settings_reset
+  #   board: seeeduino_xiao_ble 
+  # - shield: tenaxoled_left
+  #   board: seeeduino_xiao_ble
+  # - shield: tenaxoled_right
+  #   board: seeeduino_xiao_ble   
+  #  - board: adafruit_kb2040
+  #   shield: chipperuno
